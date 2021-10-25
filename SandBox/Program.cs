@@ -6,8 +6,6 @@ namespace SandBox
     {
         static void Main(string[] args)
         {
-            #region My First Class
-
             Console.WriteLine("Hello World!");
             var m = new MaClasse();
             var m2 = new MaClasse("I am m2");
@@ -17,15 +15,6 @@ namespace SandBox
             Console.WriteLine("c - m : " + m.GetTata());
             m.DoubleWord();
             Console.WriteLine("d - m : " + m.GetTata());
-
-            #endregion
-
-            #region Fractions
-
-            
-
-            #endregion
-            
         }
     }
 }
