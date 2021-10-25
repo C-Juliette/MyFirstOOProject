@@ -26,6 +26,7 @@
 
         public MaClasse()
         {
+            _tata = "fuzz";
         }
         
         public MaClasse(string parametre)
